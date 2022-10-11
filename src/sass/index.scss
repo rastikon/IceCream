@@ -1,0 +1,26 @@
+// utils-переменные var
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+// базовые настройки и сбросы
+@import './common';
+@import './reset';
+@import './container';
+
+// компоненты, которые можно перезаписать: button, modal-menu, mobile-menu, social-icons
+@import './components/button';
+@import './components/form';
+@import './components/mobile-menu';
+@import './components/social-icons';
+@import './components/franchise-modal';
+
+// loyouts секции сайта
+@import './layout/hero-header';
+
+@import './layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/gallery';
+@import './layout/customer_reviews';
+@import './layout/contacts';
+@import './layout/footer';
